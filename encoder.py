@@ -1,3 +1,5 @@
+import ran
+
 """Byte pair encoding utilities.
 
 Copied from: https://github.com/openai/gpt-2/blob/master/src/encoder.py.
@@ -111,6 +113,7 @@ class Encoder:
         return text
 
 
+@ran.expose
 def get_encoder(model_name, models_dir):
     with open(os.path.join(models_dir, model_name, "encoder.json"), "r") as f:
         encoder = json.load(f)
