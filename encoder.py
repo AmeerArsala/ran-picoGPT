@@ -8,7 +8,7 @@ import json
 import os
 from functools import lru_cache
 
-import regex as re
+import re
 
 
 @lru_cache()
