@@ -234,3 +234,6 @@ $RECYCLE.BIN/
 *.lnk
 
 
+# pixi environments
+.pixi
+*.egg-info
